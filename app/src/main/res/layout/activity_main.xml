@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="23dp"
+        android:onClick="openemail"
+        android:text="Kirim Email" />
+
+
+    <TextView
+        android:id="@+id/editText9"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText12"
+        android:layout_marginTop="185dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Hobi"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/editText12"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText4"
+        android:layout_marginTop="228dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Deskripsi"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Biodata"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/editText4"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText10"
+        android:layout_marginTop="106dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=" Nama"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/editText10"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="145dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="NIM"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/editText13"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/editText10"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="A11.2016.09501"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/editText16"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText14"
+        android:layout_alignTop="@+id/editText12"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Pencari Berkah"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/editText17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText13"
+        android:layout_alignTop="@+id/editText9"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Game, Olahraga"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/editText14"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/editText4"
+        android:layout_marginEnd="7dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Muhammad Iqbal"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="95dp"
+        android:layout_height="82dp"
+        android:layout_alignBottom="@+id/editText3"
+        android:layout_alignStart="@+id/editText4"
+        android:layout_marginBottom="-31dp"
+        app:srcCompat="@drawable/iqbal" />
+
+    <EditText
+        android:id="@+id/inpPhone"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="203dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="142dp"
+        android:onClick="callPhone"
+        android:text="Panggil Telpon" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="84dp"
+        android:onClick="openmaps"
+        android:text="Alamat" />
+
+
+</RelativeLayout>
